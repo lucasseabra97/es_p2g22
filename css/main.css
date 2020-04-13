@@ -653,7 +653,12 @@ h1.navbar-brand {
 /*=================================================================
 	Services
 ==================================================================*/
-
+.personas{
+   text-align: center;
+}
+.scenarios{
+    text-align: center;
+}
 .service-icon {
     border: 3px solid transparent;
     display: inline-block;

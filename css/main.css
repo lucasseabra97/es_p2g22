@@ -372,8 +372,13 @@ h1.navbar-brand {
 }
 
 .navbar-brand img {
-    align-self: start;
-    height: 35.5px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    margin-top: 0rem;
+    height: 40.5px;
+
+    
   }
 
 .navbar-inverse .navbar-nav > li > a {

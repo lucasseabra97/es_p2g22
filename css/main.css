@@ -372,12 +372,13 @@ h1.navbar-brand {
 }
 
 .navbar-brand img {
-    margin-left: auto;
-    margin-right: auto;
-    display:block;
-    margin-top: 0rem;
-    height: 40.5px;
-
+   
+    position: absolute;
+   
+    width: 90px;
+    height: 70px;
+    margin-top: -25px; /* Half the height */
+    margin-left: -25px; /* Half the width */
     
   }
 

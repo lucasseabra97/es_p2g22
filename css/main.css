@@ -177,7 +177,12 @@ main > section {
 .sec-title.white h2 {
     color: #fff;
 }
-
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 .sec-title h2:after {
     border-bottom: 1px solid #009ee3;
     content: "";
@@ -233,6 +238,8 @@ div.team {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 30px;
+    margin-bottom: 150px;
+    margin-top: 140px;
   }
   div.team div.team_member {
     position: relative;

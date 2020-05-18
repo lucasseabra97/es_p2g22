@@ -271,9 +271,10 @@
 								<div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2" data-parent="#accordionEx" style="">
 								<div class="card-body">
 									<p>Julio is visiting Porto for the first time and therefore not familiarized with bus routes nor schedules. In order to learn about that he uses Future Traffic instead of the usual and old fashioned information boards, because in the first place he can access the website from anywhere and in second place it is always updated with new events.</p>
-									<p><b>Given</b> Julio is at street X</p>
-									<p><b>When</b> he checks bus is available </p>
-									<p><b>Then</b> he can wait to take the Bus at the street X .</p>
+									<p><b>Given</b> Julio is at Rua Central de Francos</p>
+									<P><b>And</b> he thinks the next bus is the bus Y at "Rua Interior in Porto"</P>
+									<p><b>When</b>  he goes to "Rua Interior in Porto"  </p>
+									<p><b>Then</b> he confirms the next Bus is Y in "Rua Interior in Porto" </p>
 								</div>
 								</div>
 							</div>
@@ -288,10 +289,10 @@
 								</div>
 								<div id="collapseFour4" class="collapse" role="tabpanel" aria-labelledby="headingfour4" data-parent="#accordionEx" style="">
 								<div class="card-body">
-									<p>Ricardo works as a nurse at S. João’s Hospital and his transport of choice is public buses. Although, he missed the one he usually takes so he needs to know another one with a common route. Thus, he manages to get that information through Future Traffic.</p>
-									<p><b>Given</b> Ricardo missed his bus and needs to go to work</p>
-									<p><b>When</b> he visits Future Traffic</p>
-									<p><b>Then</b> he finds another bus with a common route.</p>
+									<p>José is late to work and usually takes 2 buses to get there. By checking the average speed on the routes of thoses buses he can decide either is worth to go by the usual manner or call a taxi, which is faster	.</p>
+									<p><b>Given</b> José has the information that there are at least X Buses  exceeding the speed limit of Y</p>
+									<p><b>When</b> he checks all the buses average speed</p>
+									<p><b>Then</b> he has the confirmation there are at least X buses above speed Y.</p>
 								</div>
 								</div>
 							</div>
